@@ -5,7 +5,7 @@ import React, { Suspense, useEffect, useState } from "react";
 export default function page() {
   return (
     <Suspense>
-      <Search></Search>
+      {/* <Search></Search> */}
     </Suspense>
   );
 }
