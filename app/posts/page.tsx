@@ -4,8 +4,8 @@ import React, { Suspense, useEffect, useState } from "react";
 
 export default function page() {
   return (
-    <div>
+    <Suspense>
       <Search></Search>
-    </div>
+    </Suspense>
   );
 }
